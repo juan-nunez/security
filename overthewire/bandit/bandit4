@@ -1,0 +1,7 @@
+ls
+cd inhere
+ls
+
+This command will look all the files in this directory that match the *file* pattern. Then grep will print out the file contents that match the regex
+find . -name "*file*" | xargs grep -ohE [A-Za-z0-9]+
+koReBOKuIDDepwhWk7jZC0RTdopnAYKh
